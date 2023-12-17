@@ -1,0 +1,5 @@
+rootProject.name = 'seaside-gradle-plugins'
+
+include("com.ngc.seaside.gradle.plugins")
+
+project(':com.ngc.seaside.gradle.plugins').name = 'gradle.plugins'
